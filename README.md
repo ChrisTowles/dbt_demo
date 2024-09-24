@@ -58,8 +58,19 @@ Expected to have docker installed.
 docker compose up -d
 ```
 
-## Initialize dbt project
+## Test dbt project connection
 
 ```bash
-dbt init
+# check with dbt using profile set in this repo.
+dbt debug --profiles-dir  ./dbt_profile
+
+```
+
+
+## Run dbt project
+
+```bash
+# check with dbt using profile set in this repo.
+dbt run --profiles-dir  ./dbt_profile
+
 ```

@@ -1,0 +1,27 @@
+# company-name:
+#   outputs:
+#     dev:
+#       connect_timeout: 10
+#       dbname: dbt_demo
+#       host: localhost
+#       keepalives_idle: 0
+#       password: password123
+#       port: 5432
+#       retries: 1
+#       schema: public
+#       type: postgres
+#       user: developer
+#   target: dev
+  
+default:
+  outputs:
+    dev:
+      dbname: dbt_test
+      host: localhost
+      pass: password123
+      port: 5432
+      schema: public
+      threads: 1
+      type: postgres
+      user: developer
+  target: dev
