@@ -49,3 +49,17 @@ Now you can run `dbt` commands:
 ```bash
 dbt --version
 ```
+
+## Bring up the postgres database
+
+Expected to have docker installed.
+
+```bash
+docker compose up -d
+```
+
+## Initialize dbt project
+
+```bash
+dbt init
+```
