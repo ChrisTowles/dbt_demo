@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: public
+    database: dbt_test  
+    schema: public  
+    tables:
+      - name: test50k
+
+  # - name: stripe
+  #   database: raw  
+  #   schema: stripe
+  #   tables:
+  #     - name: payment
+  #       loaded_at_field: _batched_at
+  #       freshness:
+  #        warn_after: {count: 9, period: day}
+  #        error_after: {count: 10,period: day}
