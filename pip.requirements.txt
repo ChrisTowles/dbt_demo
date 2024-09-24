@@ -1,0 +1,10 @@
+
+# note: not pinning to a specific version of dbt because it's a demo
+dbt-core
+dbt-postgres
+
+# optional dependencies for other databases
+# dbt-redshift 
+# dbt-snowflake 
+# dbt-bigquery 
+# dbt-trino
