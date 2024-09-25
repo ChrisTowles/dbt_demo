@@ -2,10 +2,10 @@
 
 Some basic DBT demo using a local postgres database.
 
-> !Note
+> Note:
 > I thought to use DBT for an ETL pipeline, but I found that it is not a good fit. DBT is good a generating sql scripts. It is better to use a tool like Airflow or Prefect so going back to my airflow playground project.
 
-## Pythong Setup
+## Python Setup
 
 Setup Python with pyenv
 
