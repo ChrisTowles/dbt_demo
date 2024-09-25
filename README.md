@@ -1,19 +1,9 @@
-Welcome to your new dbt project!
+# DBT Demo
 
-### Using the starter project
+Some basic DBT demo using a local postgres database.
 
-Try running the following commands:
-- dbt run
-- dbt test
-
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](http://community.getbdt.com/) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
-
+> !Note
+> I thought to use DBT for an ETL pipeline, but I found that it is not a good fit. DBT is good a generating sql scripts. It is better to use a tool like Airflow or Prefect so going back to my airflow playground project.
 
 ## Pythong Setup
 
@@ -65,7 +55,6 @@ docker compose up -d
 dbt debug --profiles-dir  ./dbt_profile
 
 ```
-
 
 ## Run dbt project
 
